@@ -88,7 +88,7 @@ public class InterfaceMain extends JFrame {
 		NomePanel.setColumns(10);
 		contentPane.setLayout(null);
 		
-		lblNewLabel_3 = new JLabel("HydroScore");
+		lblNewLabel_3 = new JLabel("OceanScore");
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		lblNewLabel_3.setBounds(69, 48, 163, 49);
 		lblNewLabel_3.setForeground(new Color(255, 255, 255));

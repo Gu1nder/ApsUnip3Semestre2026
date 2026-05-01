@@ -49,29 +49,28 @@ public class SobreOPrograma extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
 		//o que está escrito no programa, para formatar o texto precisa utilizar as mesmas tags do html da web
-		JLabel lblNewLabel = new JLabel("<html>\nO programa é um questionário interativo. Ele avalia a qualidade da água na região onde você mora."
+		JLabel lblNewLabel = new JLabel("<html>"
+				+ "\nO OceanScore convida você a olhar para o mar com outros olhos. Este é um questionário interativo pensado para entender como anda a saúde das nossas praias e oceanos bem aí, na sua região."
 				+ "<br><br>"
-				+ "\nAo responder perguntas sobre como você usa água, sobre a infraestrutura e o que você observa na sua localidade,"
+				+ "Ao compartilhar o que você observa no seu dia a dia — desde a infraestrutura da sua cidade até a limpeza das praias — você nos ajuda a construir um diagnóstico real sobre a vida na água."
 				+ "<br><br>"
 				+ "\no sistema recolhe informações e dá um resumo da situação da água."
 				+ "<br><br>"
-				+ "\nVocê pode dar as seguintes informações no questionário:"
+				+ "\nO que vamos conversar no questionário:"
 				+ "<br><br>"
-				+ "\n- Seu nome, a cidade e o estado onde mora"
+				+ "\n- Quem é você e em qual parte do nosso litoral você está;"
 				+ "<br>"
-				+ "\n- Como você usa água no seu dia a dia"
+				+ "\n- Seus hábitos de consumo e como você cuida dos resíduos;"
 				+ "<br>"
-				+ "\n- o tratamento e se a água é boa para beber"
+				+ "\n• A sua percepção sobre a poluição e a preservação do ecossistema local."
 				+ "<br><br>"
-				+ "\nCom base no que você responde, o programa dá um resultado fácil de entender."
-				+ "<br><br>"
-				+ "\nEle diz se a água da sua região é boa para beber ou se há alertas importantes.\n"
+				+ "\nCom base nas suas respostas, o sistema gera um resultado simples e direto."
 				+ "</html>");
 		lblNewLabel.setForeground(new Color(255, 255, 255));
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 15));

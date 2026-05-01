@@ -58,16 +58,15 @@ public class Questionario5 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 182, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
 		JLabel lblNewLabel = new JLabel("<html>"
-				+ "Infraestrutura Local: Você observa esgoto a céu aberto ou lixões próximos à fonte de"
-				+ " água ou à sua rua?" +
-				
+				+ "Infraestrutura Costeira: Você observa construções ou lixões diretamente sobre dunas"
+				+ " ou áreas de mangue?" +
 				"</html>"
 				);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
@@ -98,25 +97,25 @@ public class Questionario5 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Não, a região possui saneamento básico completo.");
+		JRadioButton RadA = new JRadioButton("(A) Não, a vegetação nativa e as dunas estão preservadas.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
-		RadA.setBounds(95, 334, 240, 49);
+		RadA.setBounds(95, 334, 392, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Existe saneamento, mas ocorrem vazamentos frequentes.");
+		JRadioButton RadB = new JRadioButton("(B) Existem algumas construções, mas a maior parte parece preservada.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
-		RadB.setBounds(95, 386, 377, 46);
+		RadB.setBounds(95, 386, 476, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Sim, há esgoto exposto ou descarte inadequado de lixo por perto.");
+		JRadioButton RadC = new JRadioButton("(C) Sim, há um avanço urbano desordenado sobre ecossistemas protegidos.");
 		RadC.setForeground(new Color(255, 128, 128));
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));
-		RadC.setBounds(95, 435, 485, 41);
+		RadC.setBounds(95, 435, 527, 41);
 		contentPane.add(RadC);
 		
 		ButtonGroup grupo = new ButtonGroup();

@@ -58,20 +58,19 @@ public class Questionario6 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 182, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
 		JLabel lblNewLabel = new JLabel("<html>"
-				+ "Histórico de Saúde: Alguém na sua casa teve sintomas gastrointestinais (dor de" 
-				+ "barriga, diarreia) recentemente?" +
-				
-				"</html>"
+				+ "Impacto na Biodiversidade: Com que frequência você avista animais marinhos"
+				+ "(tartarugas, aves, peixes) mortos ou presos em lixo?"	
+				+ "</html>"
 				);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 631, 62);
+		lblNewLabel.setBounds(95, 231, 631, 78);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
 		JLabel lblNewLabel_4 = new JLabel("@ApsUnip2026");
@@ -98,21 +97,21 @@ public class Questionario6 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Não, ninguém apresentou sintomas.");
+		JRadioButton RadA = new JRadioButton("(A) Nunca presenciei tal situação.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
 		RadA.setBounds(95, 334, 280, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Casos isolados e raros.");
+		JRadioButton RadB = new JRadioButton("(B) Vi casos isolados uma ou duas vezes.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
 		RadB.setBounds(95, 386, 377, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Sim, é comum as pessoas passarem mal após beber a água.");
+		JRadioButton RadC = new JRadioButton("(C) É comum encontrar fauna marinha prejudicada por resíduos na região.");
 		RadC.setForeground(new Color(255, 128, 128) );
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));

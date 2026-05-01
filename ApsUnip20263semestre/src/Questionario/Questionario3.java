@@ -58,15 +58,19 @@ public class Questionario3 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 182, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
-		JLabel lblNewLabel = new JLabel("Sabor: Como você descreveria o gosto da água?");
+		JLabel lblNewLabel = new JLabel(
+				"<html>"
+				+ "Descarte de Esgoto: Você percebe odor de esgoto ou coloração escura da água do"
+				+ "mar em áreas urbanas?"
+				);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 631, 26);
+		lblNewLabel.setBounds(95, 231, 631, 66);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
 		JLabel lblNewLabel_4 = new JLabel("@ApsUnip2026");
@@ -93,21 +97,21 @@ public class Questionario3 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Sem gosto (insípida).");
+		JRadioButton RadA = new JRadioButton("(A) Não, a água é clara e inodora.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
 		RadA.setBounds(95, 334, 240, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Gosto levemente metálico ou de cloro.");
+		JRadioButton RadB = new JRadioButton("(B) O odor é perceptível apenas após períodos de chuva forte.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
-		RadB.setBounds(95, 386, 377, 46);
+		RadB.setBounds(95, 386, 455, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Gosto ruim, salobro ou muito alterado.");
+		JRadioButton RadC = new JRadioButton("(C) O cheiro de esgoto é constante e há línguas pretas de poluição na areia.");
 		RadC.setForeground(new Color(255, 128, 128) );
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));

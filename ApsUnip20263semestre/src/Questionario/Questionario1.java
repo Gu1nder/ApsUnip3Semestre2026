@@ -59,15 +59,18 @@ public class Questionario1 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 167, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
-		JLabel lblNewLabel = new JLabel("Aspecto Visual: Como é a aparência da água que sai das torneiras?");
+		JLabel lblNewLabel = new JLabel("<html>"
+				+ "Resíduos em Áreas de Lazer: Com que frequência você observa lixo nas praias ou <"
+				+ "encostas que frequenta?"
+				);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 631, 26);
+		lblNewLabel.setBounds(95, 231, 631, 63);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
 		JLabel lblNewLabel_4 = new JLabel("@ApsUnip2026");
@@ -94,25 +97,25 @@ public class Questionario1 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Límpa e transparente.");
+		JRadioButton RadA = new JRadioButton("(A) Raramente ou nunca vejo resíduos.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
-		RadA.setBounds(95, 334, 240, 49);
+		RadA.setBounds(95, 334, 325, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Às vezes apresenta cor esbranquiçada ou amarelada.");
+		JRadioButton RadB = new JRadioButton("(B) Observo pequenos resíduos ocasionalmente (bitucas, tampinhas).");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
-		RadB.setBounds(95, 386, 377, 46);
+		RadB.setBounds(95, 386, 485, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Ela frequentemente apresenta turbidez ou sedimentos (terra/ferrugem).");
+		JRadioButton RadC = new JRadioButton("(C) Frequentemente há grandes quantidades de lixo (plásticos, redes, canudos).");
 		RadC.setForeground(new Color(255, 128, 128));
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));
-		RadC.setBounds(95, 435, 485, 41);
+		RadC.setBounds(95, 435, 605, 41);
 		contentPane.add(RadC);
 		
 		ButtonGroup grupo = new ButtonGroup();

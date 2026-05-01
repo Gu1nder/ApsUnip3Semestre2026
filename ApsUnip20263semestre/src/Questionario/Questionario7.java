@@ -56,20 +56,19 @@ public class Questionario7 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 182, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
 		JLabel lblNewLabel = new JLabel("<html>"
-				+ "Frequência de Abastecimento: Com que frequência falta água ou ocorre manutenção"
-				+ "na rede?" +
-				
-				"</html>"
+				+ "Uso de Plásticos de Uso Único: Qual a sua frequência de uso de descartáveis"
+				+ "(copos, canudos, sacolas) em ambientes de praia?"
+				+ "</html>"
 				);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 631, 62);
+		lblNewLabel.setBounds(95, 231, 631, 75);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
 		JLabel lblNewLabel_4 = new JLabel("@ApsUnip2026");
@@ -96,25 +95,25 @@ public class Questionario7 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Quase nunca falta.");
+		JRadioButton RadA = new JRadioButton("(A) Nunca utilizo; sempre levo meus próprios itens reutilizáveis.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
-		RadA.setBounds(95, 334, 240, 49);
+		RadA.setBounds(95, 334, 405, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Falta às vezes, geralmente para manutenção informada.");
+		JRadioButton RadB = new JRadioButton("(B) Utilizo ocasionalmente quando esqueço os meus, mas descarto corretamente.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
-		RadB.setBounds(95, 386, 387, 46);
+		RadB.setBounds(95, 386, 529, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Interrupções constantes que geram retorno de água suja quando volta.");
+		JRadioButton RadC = new JRadioButton("(C) Utilizo frequentemente e não há lixeiras adequadas por perto.");
 		RadC.setForeground(new Color(255, 128, 128));
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));
-		RadC.setBounds(95, 435, 495, 41);
+		RadC.setBounds(95, 435, 443, 41);
 		contentPane.add(RadC);
 		
 		ButtonGroup grupo = new ButtonGroup();

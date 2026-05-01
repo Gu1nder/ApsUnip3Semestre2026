@@ -56,19 +56,19 @@ public class Questionario10 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 182, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
 		JLabel lblNewLabel = new JLabel("<html>"
-				+ "Presença de Resíduos: Após lavar roupas ou louças, você nota manchas ou resíduos"
-				+ "acumulados" +
+				+ "Alteração do Ecossistema: Você notou o desaparecimento de espécies comuns"
+				+ "(como caranguejos, conchas ou peixes específicos) ao longo dos anos?" +
 				"</html>"
 				);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 631, 57);
+		lblNewLabel.setBounds(95, 231, 631, 78);
 		setLocationRelativeTo(null);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
@@ -96,21 +96,21 @@ public class Questionario10 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Não, tudo fica limpo.");
+		JRadioButton RadA = new JRadioButton("(A) Não, a biodiversidade local parece estável e abundante.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
-		RadA.setBounds(95, 334, 240, 49);
+		RadA.setBounds(95, 334, 393, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Fica um leve resíduo esbranquiçado ou manchas leves.");
+		JRadioButton RadB = new JRadioButton("(B) Notei uma leve diminuição em algumas espécies.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
 		RadB.setBounds(95, 386, 377, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Sim, deixa manchas amareladas ou crostas nos metais.");
+		JRadioButton RadC = new JRadioButton("(C) Sim, muitas espécies que eram comuns sumiram ou estão muito raras.");
 		RadC.setForeground(new Color(255, 128, 128));
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));

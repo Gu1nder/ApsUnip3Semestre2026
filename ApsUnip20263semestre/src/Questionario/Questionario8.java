@@ -57,15 +57,19 @@ public class Questionario8 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 185, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
-		JLabel lblNewLabel = new JLabel("Tratamento Doméstico: Você utiliza algum método extra de purificação?");
+		JLabel lblNewLabel = new JLabel(
+				"<html>"
+				+"Educação Ambiental: Você já participou ou"
+				+ "viu campanhas de limpeza de praias ou preservação marinha na sua localidade?"
+				+ "</html>");
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 676, 26);
+		lblNewLabel.setBounds(95, 231, 676, 70);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
 		JLabel lblNewLabel_4 = new JLabel("@ApsUnip2026");
@@ -92,18 +96,18 @@ public class Questionario8 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Filtro de alta tecnologia ou purificador com selo Inmetro.");
+		JRadioButton RadA = new JRadioButton("(A) Sim, participo ativamente ou vejo campanhas frequentes.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
-		RadA.setBounds(95, 334, 240, 49);
+		RadA.setBounds(95, 334, 465, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Filtro de barro ou fervura simples.");
+		JRadioButton RadB = new JRadioButton("(C) Nunca vi nenhuma iniciativa de conscientização ambiental marinha.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
-		RadB.setBounds(95, 386, 377, 46);
+		RadB.setBounds(95, 386, 465, 46);
 		contentPane.add(RadB);
 		
 		JRadioButton RadC = new JRadioButton("(C) Não trato a água, bebo direto da torneira.");

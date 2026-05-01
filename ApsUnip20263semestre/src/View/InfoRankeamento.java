@@ -48,7 +48,7 @@ public class InfoRankeamento extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
@@ -58,33 +58,37 @@ public class InfoRankeamento extends JFrame {
 		lblNewLabel_4.setBackground(Color.WHITE);
 		
 		JLabel lblNewLabel = new JLabel("<html>" +
-                "<h2>Fonte Segura</h2>" +
+                "<h2>Oceano Resiliente</h2>" +
                 "<br>" +
-                "<b>Status:</b> Boa qualidade<br><br>" +
-                "Este nome mostra que a água é confiável e o usuário pode beber sem preocupações.<br><br>" +
+                "<b>Status:</b> Indica que a região apresenta alto nível de conservação e consciência sobre o" +
+                "uso sustentável dos recursos marinhos.<br><br>" +
                 "</html>");
 		lblNewLabel.setForeground(new Color(128, 255, 0));
 		
 		
 		JLabel lblNewLabel_2 = new JLabel(
-		        "<html>" +
-		        "<h2>Ponto de Atenção</h2>" +
-		        "<b>Status:</b> Médio para consumo<br><br>" +
-		        "Este nome é como um aviso. Indica que a água pode ter problemas como cor ou cheiro.<br><br>" +
+		        "<html>"
+		        +"<h2>Alerta de Degradação</h2>" 
+		        + "<b>Status:</b> Equilíbrio Frágil<br><br>" 
+		        +"Indica impactos visíveis. É necessário reforçar a fiscalização e reduzir o" 
+		        + "descarte de resíduos para proteger a vida na água. <br><br>"
 
-		        "</html>");
+		        + "</html>");
 		lblNewLabel_2.setForeground(new Color(255, 255, 128));
 		
 		JLabel lblNewLabel_5 = new JLabel(
-		        "<html>" +
-		        "<h2>Zona de Risco</h2>" +
-		        "<br>" +
-		        "<b>Status:</b> Perigoso para consumo<br><br>" +
-		        "Este nome é forte e chama a atenção para riscos à saúde.<br><br>" +
-		        "</html>");
+		        "<html>" 
+		        + "<h2>Zona Crítica Marinha</h2>" 
+		        + "<br>" 
+		        + "<b>Status:</b> Risco Ambiental Alto<br><br>" 
+		        + "Alerta máximo! O ecossistema está severamente comprometido por poluição" 
+		        + "ou exploração predatória. Ação urgente necessária."
+		        + "</html>");
 		lblNewLabel_5.setForeground(new Color(255, 128, 128));
 		
-		JLabel lblNewLabel_6 = new JLabel("O ranking da qualidade da água da sua cidade está sendo classificado da seguinte forma:");
+		JLabel lblNewLabel_6 = new JLabel("<html>"
+				+"O ranking da qualidade da água da sua cidade está sendo classificado da seguinte forma:"
+				+"</html>");
 		lblNewLabel_6.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		lblNewLabel_6.setForeground(new Color(255, 255, 255));
 		

@@ -56,19 +56,18 @@ public class Questionario9 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblNewLabel_3 = new JLabel("HydroScore");
-		lblNewLabel_3.setBounds(290, 20, 150, 49);
+		JLabel lblNewLabel_3 = new JLabel("OceanScore");
+		lblNewLabel_3.setBounds(290, 20, 164, 49);
 		lblNewLabel_3.setForeground(Color.WHITE);
 		lblNewLabel_3.setFont(new Font("Yu Gothic Light", Font.PLAIN, 30));
 		lblNewLabel_3.setBackground(new Color(0, 128, 255));
 		
 		JLabel lblNewLabel = new JLabel("<html>"
-				+ "Estado do Reservatório: Quando foi a última limpeza da caixa d'água da sua "
-				+ "residência?" +
-				"</html>"
-				);
+				+ "Contaminação Química: Você nota manchas de óleo ou substâncias oleosas na"
+				+ " superfície da água ou na areia?"
+				+ "</html>");
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(95, 231, 631, 58);
+		lblNewLabel.setBounds(95, 231, 631, 66);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 21));
 		
 		JLabel lblNewLabel_4 = new JLabel("@ApsUnip2026");
@@ -95,21 +94,21 @@ public class Questionario9 extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		//opções A, B, C
-		JRadioButton RadA = new JRadioButton("(A) Há menos de 6 meses.");
+		JRadioButton RadA = new JRadioButton("(A) Nunca observei manchas de óleo.");
 		RadA.setForeground(new Color(128, 255, 128));
 		RadA.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadA.setBackground(new Color(0, 73, 108));
-		RadA.setBounds(95, 334, 240, 49);
+		RadA.setBounds(95, 334, 345, 49);
 		contentPane.add(RadA);
 		
-		JRadioButton RadB = new JRadioButton("(B) Entre 6 meses e 1 ano.");
+		JRadioButton RadB = new JRadioButton("(B) Observei manchas pequenas e pontuais em áreas de barcos.");
 		RadB.setForeground(new Color(255, 255, 128));
 		RadB.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadB.setBackground(new Color(0, 73, 108));
-		RadB.setBounds(95, 386, 377, 46);
+		RadB.setBounds(95, 386, 467, 46);
 		contentPane.add(RadB);
 		
-		JRadioButton RadC = new JRadioButton("(C) Há mais de 1 ano ou nunca foi limpa.");
+		JRadioButton RadC = new JRadioButton("(C) É frequente a presença de graxa, óleo ou manchas químicas na água.");
 		RadC.setForeground(new Color(255, 128, 128) );
 		RadC.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		RadC.setBackground(new Color(0, 73, 108));
